@@ -1,8 +1,8 @@
-### Title : Experiment2 UML-sequence-diagram
+### ***Title*** : Experiment2 UML-sequence-diagram
 
-### Aim : To design UML sequence diagram
+### ***Aim*** : To design UML sequence diagram
 
-### Theory : What is a Sequence Diagram in UML?
+### ***Theory*** : What is a Sequence Diagram in UML?
 UML Sequence diagrams are interaction diagrams that detail how operations are carried out. As sequence diagrams can be used to capture the interaction between objects in the context of a collaboration, one of the primary uses of sequence diagrams is in the transition from requirements expressed as use cases to the next and more formal level of refinement. Use cases are often refined into one or more sequence diagrams.Sequence diagrams are time focus and they show the order of the interaction visually by using the vertical axis of the diagram to represent time what messages are sent and when.
 
 ### Sequence Diagrams captures interaction in different level of granularity:
@@ -12,7 +12,7 @@ UML Sequence diagrams are interaction diagrams that detail how operations are ca
 3. Represent objects interact in (Model, View / Controller) MVC pattern of software framework
 
 
-### Explanation : When to Draw Sequence Diagram?
+### ***Explanation*** : When to Draw Sequence Diagram?
 1. Model high-level interaction between active objects in a system
 2. Model the interaction between object instances within a collaboration that realizes a use case
 3. Model the interaction between objects within a collaboration that realizes an operation
@@ -42,7 +42,7 @@ UML Sequence diagrams are interaction diagrams that detail how operations are ca
     Repeat each of the point of the scenario (or flow of event) and until you complete all the points in the scenario.
 
 
- ### Output Screenshot :
+ ### ***Output Screenshot*** :
  https://github.com/anikethmehta/Experiment2-UML-sequence-diagram/blob/main/Sequence_diagram.png
  
   
