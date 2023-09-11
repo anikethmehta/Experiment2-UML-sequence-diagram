@@ -1,4 +1,4 @@
-### ***Title*** : Experiment2 UML-sequence-diagram
+### ***Title*** : LAB 5 UML-sequence-diagram
 
 ### ***Aim*** : To design UML sequence diagram
 
@@ -40,6 +40,51 @@ UML Sequence diagrams are interaction diagrams that detail how operations are ca
       a basis to derive the class diagram incrementally.
       
     Repeat each of the point of the scenario (or flow of event) and until you complete all the points in the scenario.
+
+### Components of Sequence diagram: 
+1.***Lifeline***
+
+A lifeline represents an individual participant in the Interaction.
+
+2.***Actor***
+
+An Actor a type of role played by an entity that interacts with the subject (e.g., by exchanging signals and data). An actor can also be an external to the subject (i.e., in the sense that an instance of an actor is not a part of the instance of its corresponding subject). They typically represent roles played by human users, external hardware, or other subjects.
+
+3.***Activation***
+
+An activation is represented by a thin rectangle on a lifeline) represents the period during which an element is performing an operation. The top and the bottom of the of the rectangle are aligned with the initiation and the completion time respectively
+
+4.***Call Message***
+
+A call message defines a particular communication between lifelines of an interaction, which represents an invocation of operation of target lifeline.
+
+5.***Return Message***
+
+A return message defines a particular communication between lifelines of an interaction, which represents the pass of information back to the caller of a corresponded former message.
+
+6.***Self Message***
+
+A self message defines a particular communication between lifelines of an interaction, which represents the invocation of message of the same lifeline.
+
+7.***Recursive Message***
+
+A recursive message defines a particular communication between lifelines of an interaction, which represents the invocation of message of the same lifeline. It's target points to an activation on top of the activation where the message was invoked from.
+
+8.***Create Message***
+
+A create message defines a particular communication between lifelines of an interaction, which represents the instantiation of (target) lifeline.
+
+9.***Destroy Message***
+
+A destroy message defines a particular communication between lifelines of an interaction, which represents the request of destroying the lifecycle of target lifeline.
+
+10.***Duration Message***
+
+A duration message defines a particular communication between lifelines of an interaction, which shows the distance between two time instants for a message invocation.
+
+11.***Note***
+
+A note (comment) gives the ability to attach various remarks to elements. A comment carries no semantic force, but may contain information that is useful to a modeler.
 
 
  ### ***Output Screenshot*** :
